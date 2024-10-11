@@ -1,0 +1,43 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color:darkred;
+    color: whitesmoke;
+}
+
+.site-title {
+    color:whitesmoke
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.hobbies {
+    list-style: square;
+}
+
+.hobbies li:nth-child(odd) {
+    background-color: pink;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none ;
+    background-color: whitesmoke;
+    border: 3px solid black
+}
+
+.navigation ul li a:hover {
+    background-color:darkred
+}
+
+.navigation ul li a:focus {
+    background-color: pink;
+}
