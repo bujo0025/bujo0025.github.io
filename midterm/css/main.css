@@ -1,0 +1,230 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf ;
+}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #d4e9e7;
+  }
+
+  h2 {
+    padding: 0 0 0 10px;
+  }
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1  {
+    
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+.story {
+    margin: 40px 0 50px;
+}
+
+header {
+    position: relative;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+header h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.facts ul li {
+    list-style: circle;
+    padding-left: 5px;
+    margin-left: 25px;
+}
+
+.facts h2 {
+    padding-bottom: 20px; 
+}
+
+nav ul {
+text-align: center;
+text-transform: uppercase;
+font-size: 25px;
+/* text align allows me to place text in certain areas, font size changed to 25 */
+}
+
+.header {
+    padding-top: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 248px;
+    padding-top: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    /* taken away text decoration so no underline under words */
+}
+
+nav ul li:first-child {
+    color:black;;
+}
+
+nav ul li:nth-child(even) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+article p {
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    /* paragraph padding altered to fit cleaner, font sized changed to wrap around the image better */
+}
+
+.story .content img {
+    width: 200px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.content-section {
+    clear: both;
+}
+
+.contact-form {
+    background-color: #d4e9e7;
+    padding: 30px;
+}
+
+.contact-form label,
+.contact-form p {
+    line-height: 2;
+}
+
+.contact-form div {
+    margin-bottom: 20px;
+}
+
+.contact-form .fname input,
+.contact-form .email input {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form .message textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    resize: vertical;
+}
+
+
+.contact-form input[type="submit"] {
+    padding: 10px;
+    background-color: #d4e9e7;
+    color:rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.contact-section {
+    margin: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+.contact-form input[type="submit"] {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #d4e9e7;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #d4e9e7;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    text-align: right;
+}
