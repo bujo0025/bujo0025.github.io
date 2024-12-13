@@ -1,0 +1,454 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+@media (min-width: 760px) and (max-width: 1200) {
+    body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+    }
+}
+
+.search {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0 10px 10px;
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+    color: #c78c06;
+    border: solid 1px #c78c06;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex; 
+    align-items: center;
+}
+
+.con {
+    position: relative;
+    padding: 10px;
+    background-color:#222;
+}
+
+
+header .logo {
+    background-color: #c78c06;
+    width: 100%;
+    padding: 10px 0 50px 0;
+}
+
+.con {
+    position: relative;
+    margin: 0 auto; 
+}
+
+header .angry li {
+    text-align: center; 
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c78c06;
+}
+
+header .angry {
+    text-align: center;
+    background-color: #222;
+    color: #222;
+}
+
+body .main {
+    background-color: #333;
+    color: white;
+    padding: 60px 0 60px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/main-banner.jpg");
+}
+
+body .main .star-media {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+.main .star-media h1{
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 10px 0 10px 0;
+    line-height: 80px;
+}
+
+.main .star-media p {
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.main .connect-button {
+    text-decoration: none;
+    background-color: #c78c06;
+    color: #222;
+    width: 120px;
+    font-size: 14px;
+    padding: 20px 20px 20px 20px;
+}
+
+h2 { 
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.about-us {
+    padding: 10px;
+    background-color: #ffe6ac;
+}
+
+.about-us .table {
+    width: 100%;
+}
+
+.digital .dig {
+    width: 100%; 
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.digital {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 18px;
+}
+
+.digital h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.digital p {
+    margin-left: 10px;
+}
+
+.digital .plans-button {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+
+.marketing {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.marketing .mark {
+    width: 100%;
+}
+.marketing h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.marketing p {
+    margin-left: 10px;
+}
+
+.marketing .marketing-button {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+
+.video {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.video .vid {
+    width: 100%;
+}
+.video h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.video p {
+    margin-left: 10px;
+}
+
+.video .video-button {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+
+.web-dev {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.web-dev .web {
+    width: 100%;
+}
+
+.web-dev h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.web-dev p {
+    margin-left: 10px;
+}
+
+.web-dev .web-button {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+
+.print {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.print .pri {
+    width: 100%;
+}
+.print h3 {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+}
+
+.print p {
+    margin-left: 10px;
+}
+
+.print .print-button {
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+}
+
+.vision .vis {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.vision {
+    color: white;
+    background-image: url("../images/vision.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 0;
+}
+
+.learn-more-button {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: solid 1px #c78c06;
+    margin-left: 10px;
+}
+
+.vision h3 {
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.vision p {
+    line-height: 18px;
+    padding-left: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.john-doe {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.wrapper-2 {
+    padding: 10px;
+}
+
+.john-doe .john {
+    width: 100%;
+}
+.john-doe h3 {
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.john-doe h4 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h4 {
+    border-bottom: solid 2px #c78c06;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+.john-doe p {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bobby {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.bobby .bob {
+    width: 100%;
+}
+.bobby h3 {
+    margin-left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.bobby h4 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bobby p {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#fname {
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.send {
+    background-color: #222;
+    color: #c78c06;
+    border: 1px solid #c78c06;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+iframe {
+    width: 100%; 
+    border: 0; 
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    color: #c78c06
+    
+}
